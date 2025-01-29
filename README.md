@@ -1,3 +1,6 @@
+## In Construction
+ This is the repository for the paper “PIPES: A Meta-dataset of Machine Learning Pipelines”, submitted to IJCNN 2025
+
 # PIPES API
 
 This is an API built with FastAPI that allows you to retrieve PIPES metadata. The API provides endpoints to fetch datasets and retrieve algorithm-specific data.
