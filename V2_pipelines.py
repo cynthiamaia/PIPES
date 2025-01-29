@@ -325,18 +325,18 @@ def process_dataset(file_path):
                 print(f'Tentando combinação {cont} - Imputer: {imputer}, Categorização: {categorical_strategy}, Seleção de Feature: {feature_selection}, Scaler: {scaler}, Modelo: {classifier}')
                 nome_combinacao = f"{imputer}_{categorical_strategy}_{scaler}_{feature_selection}_{classifier}"
 
-                # Dividir em conjuntos de treino e teste
+                
                 X_train, X_test = X.iloc[train_index], X.iloc[test_index]
                 y_train, y_test = y[train_index], y[test_index]
 
-                # Pré-processar os dados
+               
                 X_train_processed, X_test_processed, using_no_tec_imputer, using_no_tec_cat = preprocess(X_train, X_test, y_train, imputer, categorical_strategy, scaler, feature_selection)
                 print(X_train_processed.shape)
                 print(X_test_processed.shape)
                 logger.info(f"{X_train_processed}")
                 logger.info(f"{X_test_processed}")
                 
-                # Treinamento do modelo
+                
                 start_time = time.time()
                 classifier.fit(X_train_processed, y_train)
                 training_time = time.time() - start_time

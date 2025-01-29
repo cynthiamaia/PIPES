@@ -1,0 +1,361 @@
+Flow ID,Number of Executions, Datasets
+5749,1,Bioresponse, GradientBoostingClassifier, SelectKBest
+5750,0,
+5758,1,Bioresponse, RandomForestClassifier, SelectFromModel
+5775,5,Bioresponse, KNeighborsClassifier, SelectPercentile
+5776,0,
+5777,4,Bioresponse, RandomForestClassifier, SelectPercentile
+5778,0
+5780,2,Bioresponse, SVC, SelectPercentile
+5781,0
+5814,0
+5843,0
+5844,0
+5850,0
+5851,0
+5996,1,tic-tac-toe, RandomForestClassifier, PCA
+5997,1,tic-tac-toe, RandomForestClassifier, PCA
+5998,1,tic-tac-toe, RandomForestClassifier, PCA
+6560,0
+6561,0
+6562,0
+6565,0
+6566,0
+6567,0
+6568,0
+6569,0
+7665,0
+7666,0
+7687,0
+7688,0
+7689,0
+7698,0
+7699,0
+7700,0
+7701,0
+7702,0
+7703,0
+7704,0
+7705,0
+7810,2,Speech, LinearSVC, none
+7811,1,Speech, SGDClassifier, none
+7812,1,Speech, KNeighborsClassifier, none
+7813,1,Speech, GaussianNB, none
+7815,1,Speech, SVC, none
+7824,1,Speech, RandomForestClassifier, none
+7825,1,Speech, KNeighborsClassifier, none
+7826,2,Speech, KNeighborsClassifier, none
+7830,4,Speech, LogisticRegression, none
+7857,5,Speech - CIFAR_10_small, PCA
+7864,1,Speech, KNeighborsClassifier, PCA
+7867,1,Speech, NuSVC, PCA
+7869,3,Speech, LogisticRegression, none
+7870,3,Speech, SVC, none
+7871,6,Speech- CIFAR_10_small, KNeighborsClassifier, none
+7902,5,Speech- CIFAR_10_small, KNeighborsClassifier, PCA
+7917,3,Speech, LogisticRegression, PCA
+7932,8,Speech - CIFAR_10_small, PCA
+7934,7,Speech, none
+7944,4,CIFAR_10_small, none
+7945,1,CIFAR_10_small, PCA
+7946,7,CIFAR_10_small, PCA
+7953,2,Speech, PCA
+7958,1,Speech, PCA
+7968,1,Speech, PolynomialFeatures
+7969,1,Speech, none
+7979,3,CIFAR_10_small
+7983,3,CIFAR_10_small
+7988,1,Speech
+8014,1,Speech
+8028,1,Speech
+8031,0
+8044,4,Speech
+8045,0
+8053,1,CIFAR_10_small
+8076,1,Speech
+8077,1,Speech
+8104,0,
+8113,1,Speech
+8114,2,Speech
+8118,1,Speech
+8135,1,Speech
+8137,1,CIFAR_10_small
+8139,2,Speech
+8141,2,Speech
+8150,1,Speech
+8152,1,Speech
+8158,2,CIFAR_10_small
+8166,1,CIFAR_10_small
+8170,1,CIFAR_10_small
+8188,1,Speech
+8189,1,Speech
+8191,3,Speech
+8193,1,CIFAR_10_small
+8197,1,Speech
+8198,7,CIFAR_10_small
+8210,2,Speech
+8212,3,CIFAR_10_small
+8213,75,Speech, CIFAR_10_small
+8221,1,Speech
+8224,92,Speech, CIFAR_10_small
+8231,1,Speech
+8236,3,CIFAR_10_small
+8239,0
+8240,1,CIFAR_10_small
+8242,1,Speech
+8264,1,CIFAR_10_small
+8271,0
+8283,1,Speech
+8285,41,Speech
+8991,0
+8992,0
+8999,0
+9001,0
+9003,0
+9006,0
+9020,0
+9021,0
+9023,0
+9057,0
+9072,0
+9074,0
+9075,0
+9078,0
+9080,0
+9081,0
+9082,0
+9091,0
+9101,0
+9104,0
+9105,0
+9106,0
+9107,0
+9112,0
+9114,0
+9116,0
+9117,0
+9118,0
+9119,0
+9120,0
+9121,0
+9125,0
+9128,0
+9130,0
+9132,0
+9133,0
+9138,0
+9139,0
+9142,0
+9143,0
+9144,0
+9145,0
+9146,0
+9167,0
+9171,0
+9173,0
+9179,0
+9180,0
+9181,0
+9195,0
+9197,0
+9199,0
+9204,0
+9205,0
+9230,0
+9231,0
+9256,0
+9273,0
+9274,0
+9280,0
+9282,0
+9287,0
+9291,0
+9292,0
+9293,0
+9294,0
+9299,0
+9301,0
+9302,0
+9304,0
+9314,0
+9323,0
+9324,0
+9325,0
+9326,0
+9333,0
+9347,0
+9355,0
+9365,0
+9369,0
+9382,0
+9384,0
+9389,0
+9390,0
+9393,0
+9394,0
+9396,0
+9401,0
+9402,0
+9403,0
+9404,0
+9405,0
+9412,0
+9413,0
+9419,0
+9420,0
+9421,0
+9422,0
+9424,0
+9425,0
+9427,0
+9432,0
+9433,0
+9434,0
+9436,0
+9437,0
+9444,0
+9446,0
+9449,0
+9457,0
+9460,0
+9472,0
+9480,0
+9491,0
+9497,0
+9499,0
+9501,0
+9505,0
+9508,0
+9510,0
+9511,0
+9515,0
+9537,0
+9539,0
+9540,0
+9549,0
+9661,1,diabetes
+9662,0
+9663,0
+9676,1,test_dataset
+9677,0
+9817,0
+9818,0
+9819,0
+9821,0
+9822,1,analcatdata_challenger
+9823,0
+9824,0
+11921,1,blood-transfusion-service-center
+11922,0
+11923,0
+11926,0
+11932,1,blood-transfusion-service-center
+11933,0
+11934,0
+11937,0
+12155,1,blood-transfusion-service-center
+12156,0
+12161,0
+12164,0
+12297,1,eucalyptus
+12306,0
+12323,1,eucalyptus
+12332,0
+12431,1,ilpd
+12440,0
+12576,1,diabetes_numeric
+12577,0
+12578,0
+12581,0
+12587,1,diabetes_numeric
+12588,0
+12589,0
+12592,0
+12759,1,eucalyptus
+12768,0
+12894,1,heart-statlog
+12895,1,heart-statlog
+12896,1,blood-transfusion-service-center
+12897,1,iris
+12898,1,breast-w
+12899,1,banknote-authentication
+12900,1,diabetes_numeric
+12901,1,lupus
+12902,1,lupus
+12919,1,lupus
+12920,0
+12925,0
+12928,0
+12944,1,lupus
+12945,0
+12950,0
+12953,0
+12955,1,diabetes_numeric
+12956,0
+12961,0
+12964,0
+12966,1,diabetes_numeric
+12967,0
+12972,0
+12975,0
+16041,1,blood-transfusion-service-center
+16044,0
+17725,19,pollen,wilt,cnae-9,elevators,gina_agnostic,egg-eye-state
+17726,0,
+17768,12,pollen,cnae-9, elevators,gina_agnostic,egg-eye-state
+17779,10,pollen,wilt, elevators,egg-eye-state
+17807,9,pollen,wilt, cnae-9, elevators,egg-eye-state
+17817,32,pollen,wilt,cnae-9,elevators,gina_agnostic,egg-eye-state
+17858,14,pollen,wilt, elevators,gina_agnostic,gg-eye-state
+17914,9,wilt, cnae-9, egg-eye-state
+17945,17,wilt,cnae-9,elevators,egg-eye-state
+17951,13,wilt,cnae-9,gina_agnostic,egg-eye-state
+18049,2,socmob
+18084,4,socmob,bank-marketing
+18092,4,socmob,bank-marketing
+18093,4,socmob,sick
+18102,7,socmob,bank-marketing
+18132,2,socmob,bank-marketing
+18138,2,socmob,bank-marketing
+18223,4,socmob,bank-marketing
+18229,3,socmob,bank-marketing
+18243,1,socmob
+18307,3,bank-marketing, none
+18343,1,bank-marketing, none
+18366,1,bank-marketing, none
+18367,3,bank-marketing, none
+18390,1,bank-marketing, none
+18414,1,bank-marketing, none
+18510,1,sick, none
+18519,3,sick, none
+18528,2,sick, none
+18536,4,sick, none
+18559,2,sick, none
+18564,2,sick, none
+18774,1,iris, none
+18775,0
+18780,1,iris, none
+18781,0
+18871,7,balance-scale, qsar-biodeg, PolynomialFeatures
+18872,0
+18880,6,balance-scale, qsar-biodeg, PolynomialFeatures
+18882,7,balance-scale, qsar-biodeg, jungle_chess_2pcs, PCA
+19008,2,climate-model-simulation-crashes, none
+19009,0
+19400,1,pendigits, none
+19401,0
+19494,1,kr-vs-kp, none
+19495,0
+19497,0
+19498,0
+19500,1,kr-vs-kp, none
+19501,0
+19505,0
+19506,0
+19508,0
+19509,0
+19512,0
+19513,0
+19516,3,kr-vs-kp, _variance_threshold
+19517,0
+19519,0

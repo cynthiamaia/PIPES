@@ -1,0 +1,205 @@
+Flow ID,Number of Executions, Datasets, Pipelines
+5505,0
+5506,0
+5838,0
+5839,0
+6014,2,credit-approval, LogisticRegression
+6015,5,credit-approval, car, diabetes, breast-w, tic-tae, LogisticRegression
+6017,0
+6018,0
+6020,0
+6557,1,diabetes, ExtraTreeClassifier, polynomialfeatures
+6558,0
+6559,0
+6560,0
+6561,0
+6565,0
+6566,0
+6567,0
+6568,0
+6569,0
+6575,0
+6576,0
+6577,0
+6580,0
+6582,0
+6584,0
+6586,0
+6588,0
+7859,12,Speech, KNeighborsClassifier, PCA
+7860,0
+7866,1,Speech, NuSVC, PCA
+7872,6,Speech, KNeighborsClassifier, PCA
+7885,8,Speech-cifar_10, GradientBoostingClassifier, PCA
+7899,9,Speech,  KNeighborsClassifier, PCA
+7900,2,Speech, VotingClassifier, PCA
+7901,0
+7903,1,Speech,  VotingClassifier, PCA
+7904,1,Speech,VotingClassifier, PCA
+7924,1,Speech,SVC
+7925,1,Speech,SVC
+7930,1,Speech, LogisticRegression
+7937,7,Speech,  LogisticRegression, PCA
+7993,2,cifar_10, MLPClassifier
+7997,1, cifar_10, MLPClassifier, PCA
+8016,1,Speech, VotingClassifier
+8023,1,cifar_10, RandomForestClassifier, PCA
+8032,0
+8047,0
+8065,2,Speech,SVC
+8075,1,Speech, VotingClassifier, PCA
+8108,0
+8172,1,cifar_10, GaussianNB, FactorAnalysis
+8174,9,Speech,  GradientBoostingClassifier
+8178,1,cifar_10, GradientBoostingClassifier, PCA
+8182,1,cifar_10,  MLPClassifier, PCA
+8199,1,cifar_10, MLPClassifier
+8200,2,cifar_10 , AdaBoostClassifier, PCA
+8262,1,cifar_10, RandomForestClassifier, PCA
+8263,0
+8272,4,Speech,  SVC
+8288,1,cifar_10, GradientBoostingClassifier, PCA
+8289,1,cifar_10, GradientBoostingClassifier
+8526,1,pc4, KNeighborsClassifier
+8527,0
+8540,1,pc1, RandomForestClassifier
+8976,0
+8977,0
+8980,0
+8981,0
+8982,0
+8985,0
+8993,0
+9007,0
+9008,0
+9010,0
+9012,0
+9013,0
+9014,0
+9026,0
+9028,0
+9029,0
+9038,0
+9040,0
+9043,0
+9044,0
+9046,0
+9049,0
+9051,0
+9052,0
+9053,0
+9054,0
+9055,0
+9058,0
+9068,0
+9071,0
+9076,0
+9079,0
+9087,0
+9088,0
+9093,0
+9094,0
+9095,0
+9096,0
+9098,0
+9102,0
+9103,0
+9111,0
+9126,0
+9147,0
+9169,0
+9170,0
+9176,0
+9185,0
+9187,0
+9188,0
+9210,0
+9211,0
+9215,0
+9216,0
+9217,0
+9218,0
+9219,0
+9225,0
+9226,0
+9227,0
+9228,0
+9232,0
+9235,0
+9236,0
+9238,0
+9239,0
+9241,0
+9258,0
+9262,0
+9303,0
+9306,0
+9317,0
+9321,0
+9360,0
+9362,0
+9388,0
+9392,0
+9406,0
+9407,0
+9410,0
+9411,0
+9415,0
+9417,0
+9431,0
+9435,0
+9442,0
+9443,0
+9463,0
+9475,0
+9476,0
+9478,0
+9500,0
+9509,0
+9524,0
+9526,0
+9528,0
+9541,0
+17866,24,wilt-cnae9-egg, SVC
+17867,0
+17873,31,wilt-cnae9-gina-egg, LinearDiscriminantAnalysis
+17877,43,wilt-cnae9-gina-egg, BernoulliNB
+17881,59,wilt-cnae9-gina-egg, SGDClassifier
+17891,20,wilt-cnae9-gina-egg,  DecisionTreeClassifier
+17894,31,wilt-cnae9-gina-egg, RandomForestClassifier
+17895,20,wilt-cnae9, AdaBoostClassifier
+17916,34,wilt-cnae9-gina-egg,  HistGradientBoostingClassifier
+17933,43,wilt-cnae9-gina-egg,MultinomialNB
+18002,14,socmob-bank-marketing, RandomForestClassifier
+18014,22,socmob-bank-marketing, DecisionTreeClassifier
+18064,10,socmob-bank-marketing, SGDClassifier
+18066,10,socmob-bank-marketing, DecisionTreeClassifier
+18089,14,socmob-bank-marketing, LinearDiscriminantAnalysis
+18125,9,socmob-bank-marketing, HistGradientBoostingClassifier
+18144,10,socmob-bank-marketing, AdaBoostClassifier
+18159,5,socmob-bank-marketing,  SVC
+18166,6,socmob-bank-marketing, SGDClassifier
+18173,8,socmob-bank-marketing, AdaBoostClassifier
+18209,16,socmob-bank-marketing-sick, HistGradientBoostingClassifier
+18217,8,socmob-bank-marketing, LinearDiscriminantAnalysis
+18276,7,abalone- bank-marketing, RandomForestClassifier
+18333,8,bank-marketing, BernoulliNB
+18347,5,bank-marketing, BernoulliNB
+18434,2,bank-marketing, SVC
+18507,6,sick, HistGradientBoostingClassifier
+18516,18,sick, SGDClassifier
+18525,12,sick, LinearDiscriminantAnalysis
+18533,24,sick, SVC
+18556,12,sick, RandomForestClassifier
+18561,12,sick, AdaBoostClassifier
+18774,1,iris, DecisionTreeClassifier
+18777,0
+18780,1,iris, RandomForestClassifier
+18781,0
+18839,1,blood-transfusion-service-center, KNeighborsClassifier
+18840,0
+18841,5,art_daily_nojump4,  KNeighborsClassifier
+18842,0
+18844,0
+18937,2,kc2-churn, KNeighborsClassifier
+18938,0
