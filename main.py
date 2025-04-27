@@ -16,7 +16,7 @@ app = FastAPI(
     },
 )
 
-BASE_DIR = "datasets"  # Diretório onde os arquivos .zip estão localizados
+BASE_DIR = "datasets"
 
 @app.get("/")
 async def hello_world():
@@ -61,49 +61,41 @@ async def hello_world():
     },
 )
 async def get_algorithm_data(zip_name: str, algorithm_name: str):
-    # Caminho completo para o arquivo zip
+
     zip_file_path = os.path.join(BASE_DIR, f"{zip_name}.zip")
-    
+
     if not os.path.exists(zip_file_path):
         raise HTTPException(status_code=404, detail=f"Zip file {zip_name}.zip not found.")
-    
-    # Criação de um diretório temporário para descompactar o zip
+
     with TemporaryDirectory() as temp_dir:
         try:
-            # Descompactando o arquivo zip
+
             with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
                 zip_ref.extractall(temp_dir)
 
-            # Log para verificar o conteúdo descompactado
             extracted_files = os.listdir(temp_dir)
             print(f"Arquivos descompactados: {extracted_files}")
-        
-            # Buscando os arquivos CSV dentro da pasta descompactada
+
             files = [
                 f for f in extracted_files
                 if algorithm_name in f and f.endswith(".csv")
             ]
-            
+
             if not files:
                 raise HTTPException(status_code=404, detail=f"No files found for algorithm {algorithm_name}.")
-            
-            # Caminho do arquivo CSV
+
             file_path = os.path.join(temp_dir, files[0])
-            
-            # Lendo o CSV com pandas
+
             df = pd.read_csv(file_path)
-        
+
         except Exception as e:
             raise HTTPException(status_code=500, detail=f"Error processing the zip file: {str(e)}")
-        
-        # Limpeza de dados
+
         df = df.replace([float('inf'), float('-inf')], None).where(pd.notnull(df), None)
         df = df.drop(columns=["Using_imputer", "Using_cat"], errors='ignore')
-        
-        # Convertendo colunas numéricas para string (se necessário)
+
         for column in df.select_dtypes(include=[np.float64]).columns:
             df[column] = df[column].astype(str)
-        
         return df.to_dict(orient="records")
 
 # from fastapi import FastAPI, HTTPException
